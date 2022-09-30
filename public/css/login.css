@@ -1,5 +1,5 @@
 main{
-    padding: 75px;
+    padding: 50px;
 }
 
 form{
@@ -13,6 +13,7 @@ form{
     flex-wrap: wrap;
     align-content: center;
     width: 100%;
+    min-width: 250px;
     max-width: 300px;
     background: white;
     padding: 40px 30px;

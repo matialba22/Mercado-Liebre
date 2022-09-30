@@ -25,9 +25,6 @@ nav ul{
     width: 50%          
 }
 
-.input-barra{
-}
-
 .buscar{
     padding: 12px;
     height: 40px; 
@@ -160,6 +157,11 @@ main section article i{
 
 footer{
     padding: 20px 2%;
+    border-top: solid 1px darkgray;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 .icono-footer{
     font-size: 2em;

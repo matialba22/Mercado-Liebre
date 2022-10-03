@@ -2,6 +2,10 @@ main{
     padding: 100px;
 }
 
+header{
+    padding: 5px;
+}
+
 .contenedor-formulario{
     display: flex;
     justify-content: space-around;

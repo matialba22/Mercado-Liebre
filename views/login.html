@@ -23,14 +23,24 @@
 
             <div class="logo-search">
                 
+                
                 <img class="logo" src="images/logo-mercado-liebre.svg" alt="Logo de la página">
                 
-                <div class="barra-de-busqueda">
+                
+                <form action="" get="/">
 
-                    <p class="buscar">Buscar productos <i class="fa-solid fa-magnifying-glass"></i></p>
+                    <div class="contenedor-barra">
+                   
+                        <input class="buscar" type="search" name="searchbar" placeholder="Buscar productos, marcas">
+                        
+                        <div class="contenedor-lupa">
+                            <i class="fa-solid fa-magnifying-glass lupa"></i>
+                        </div>
 
-                </div>
+                    </div>
 
+                </form>
+                
             </div>
 
                 <p class="comprar-header"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
@@ -70,40 +80,40 @@
 
         </nav>
 
-        <img class="home-banner" src="images/img-home-banner.jpg">
-
     </header>
 
     <main>
 
         <form action="/" method="get">
 
-            <div class="formulario">
+            <div class="contenedor-formulario">
+                <div class="formulario">
 
-                <div class="bienvenido">
-                    <h1>Bienvenido a Mercado Liebre</h1>
-                </div>
-
-                <div class="display-campos">
-
-                    <div class="campos-texto">
-                        <input type="text" name="username" placeholder="Nombre de usuario" class="campo">
+                    <div class="bienvenido">
+                        <h1>Bienvenido a Mercado Liebre</h1>
                     </div>
 
-                    <div class="campos-texto">
-                        <input type="password" name="password" placeholder="Contraseña" class="campo">
+                    <div class="display-campos">
+
+                        <div class="campos-texto">
+                            <input type="text" name="username" placeholder="Nombre de usuario" class="campo">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="password" name="password" placeholder="Contraseña" class="campo">
+                        </div>
+
+                    </div>
+
+                    <div class="submit">
+
+                        <div class="animacion-submit">
+                            <input type="submit" name="enviar" value="Enviar" class="boton-submit">
+                        </div>
+                        
                     </div>
 
                 </div>
-
-                <div class="submit">
-
-                    <div class="animacion-submit">
-                        <input type="submit" name="enviar" value="Enviar" class="boton-submit">
-                    </div>
-                    
-                </div>
-
             </div>
 
         </form>

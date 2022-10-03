@@ -21,14 +21,24 @@
 
             <div class="logo-search">
                 
+                
                 <img class="logo" src="images/logo-mercado-liebre.svg" alt="Logo de la página">
                 
-                <div class="barra-de-busqueda">
+                
+                <form action="" get="/">
 
-                    <p class="buscar">Buscar productos <i class="fa-solid fa-magnifying-glass"></i></p>
+                    <div class="contenedor-barra">
+                   
+                        <input class="buscar" type="search" name="searchbar" placeholder="Buscar productos, marcas">
+                        
+                        <div class="contenedor-lupa">
+                            <i class="fa-solid fa-magnifying-glass lupa"></i>
+                        </div>
 
-                </div>
+                    </div>
 
+                </form>
+                
             </div>
 
                 <p class="comprar-header"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
@@ -69,101 +79,103 @@
 
         </nav>
 
-        <img class="home-banner" src="images/img-home-banner.jpg">
-
     </header>
 
     <main>
     
         <form action="/" method="get">
             
-            <div class="formulario">
+            <div class="contenedor-formulario">
+                
+                <div class="formulario">
 
-                <div class="bienvenido">
-                    <h1>Registrese</h1>
-                </div>
-
-                <div class="display-campos">
-
-                    <div class="campos-texto">
-                        <input type="text" name="nombre y apellido" placeholder="Nombre y apellido" class="campo" required="required">
+                    <div class="bienvenido">
+                        <h1>Registrese</h1>
                     </div>
 
-                    <div class="campos-texto">
-                        <input type="email" name="email" placeholder="E-mail" class="campo" required="required">
+                    <div class="display-campos">
+
+                        <div class="campos-texto">
+                            <input type="text" name="nombre y apellido" placeholder="Nombre y apellido" class="campo" required="required">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="email" name="email" placeholder="E-mail" class="campo" required="required">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="text" name="username" placeholder="Nombre de usuario" class="campo" required="required">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="password" name="contraseña" placeholder="Contraseña" class="campo" required="required">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña" class="campo" required="required">
+                        </div>
+
+                        <div class="campos-texto">
+                            <input type="text" name="domicilio" placeholder="Domicilio" class="campo" required="required">
+                        </div>
+                        
                     </div>
 
-                    <div class="campos-texto">
-                        <input type="text" name="username" placeholder="Nombre de usuario" class="campo" required="required">
+                    <div class="display-titulo-botones">
+
+                        <div>
+                            <h4>Fecha de nacimiento</h4>
+                        </div>
+                    
+                        <div>
+                            <input type="date" name="nacimiento" required="required">
+                        </div>
+
+                        <div>
+                            <h4>Perfil del usuario</h4>
+                        </div>
+
+                        <div class="compra-intereses">
+                                <label class="checkbox-radio"><input type="radio" name="perfil" value="comprador"> Comprador</label>
+                                <label class="checkbox-radio"><input type="radio" name="perfil" value="vendedor"> Vendedor</label>
+                        </div>
+
+                        <div>
+                            <h4>Intereses</h4>
+                        </div>
+                        
+                        <div class="compra-intereses">
+                                <label class="checkbox-radio"><input type="checkbox" name="interes" value="electro"> Electro</label>
+                                <label class="checkbox-radio"><input type="checkbox" name="interes" value="moda"> Moda</label>
+                                <label class="checkbox-radio"><input type="checkbox" name="interes" value="hogar"> Hogar</label>
+                                <label class="checkbox-radio"><input type="checkbox" name="interes" value="jugueteria"> Juguetería</label>
+                                <label class="checkbox-radio"><input type="checkbox" name="interes" value="vida sana"> Vida sana</label>
+                        </div>
+
+                        <div>
+                            <h4>Foto de usuario</h4>
+                        </div>
+
+                        <div>
+                            <input type="file" name="foto de perfil" accept=".jpg, .png" class="boton-foto">
+                        </div>
+
                     </div>
 
-                    <div class="campos-texto">
-                        <input type="password" name="contraseña" placeholder="Contraseña" class="campo" required="required">
-                    </div>
+                    <div class="botones">
 
-                    <div class="campos-texto">
-                        <input type="password" name="confirmar-contraseña" placeholder="Confirmar contraseña" class="campo" required="required">
-                    </div>
+                        <div class="animacion-reset">
+                            <input type="reset" value="Borrar" class="botones-submit-reset boton-reset">
+                        </div>
 
-                    <div class="campos-texto">
-                        <input type="text" name="domicilio" placeholder="Domicilio" class="campo" required="required">
+                        <div class="animacion-submit">
+                            <input type="submit" value="Enviar" class="botones-submit-reset boton-submit">
+                        </div>
+
                     </div>
                     
                 </div>
 
-                <div class="display-titulo-botones">
-
-                    <div>
-                        <h4>Fecha de nacimiento</h4>
-                    </div>
-                
-                    <div>
-                        <input type="date" name="nacimiento" required="required">
-                    </div>
-
-                    <div>
-                        <h4>Perfil del usuario</h4>
-                    </div>
-
-                    <div class="compra-intereses">
-                            <label class="checkbox-radio"><input type="radio" name="perfil" value="comprador"> Comprador</label>
-                            <label class="checkbox-radio"><input type="radio" name="perfil" value="vendedor"> Vendedor</label>
-                    </div>
-
-                    <div>
-                        <h4>Intereses</h4>
-                    </div>
-                    
-                    <div class="compra-intereses">
-                            <label class="checkbox-radio"><input type="checkbox" name="interes" value="electro"> Electro</label>
-                            <label class="checkbox-radio"><input type="checkbox" name="interes" value="moda"> Moda</label>
-                            <label class="checkbox-radio"><input type="checkbox" name="interes" value="hogar"> Hogar</label>
-                            <label class="checkbox-radio"><input type="checkbox" name="interes" value="jugueteria"> Juguetería</label>
-                            <label class="checkbox-radio"><input type="checkbox" name="interes" value="vida sana"> Vida sana</label>
-                    </div>
-
-                    <div>
-                        <h4>Foto de usuario</h4>
-                    </div>
-
-                    <div>
-                        <input type="file" name="foto de perfil" accept=".jpg, .png" class="boton-foto">
-                    </div>
-
-                </div>
-
-                <div class="botones">
-
-                    <div class="animacion-reset">
-                        <input type="reset" value="Borrar" class="botones-submit-reset boton-reset">
-                    </div>
-
-                    <div class="animacion-submit">
-                        <input type="submit" value="Enviar" class="botones-submit-reset boton-submit">
-                    </div>
-
-                </div>
-                
             </div>
 
         </form>

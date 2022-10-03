@@ -3,11 +3,21 @@
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
-    margin: 20px auto;
+    margin: 0 auto;
     width: 90%;
     max-width: 500px;
     background: white;
-    padding: 20px;
+    min-width: 250px;
+    padding: 40px 30px;
+}
+
+.contenedor-formulario{
+    display: flex;
+    justify-content: space-around;
+}
+
+header{
+    padding: 5px;
 }
 
 h1{

@@ -21,14 +21,21 @@ nav ul{
 }
 
 .contenedor-barra{
-    display: flex;  
-    width: 50%          
+    display: flex;
+    align-items: center;        
 }
 
 .buscar{
     padding: 12px;
-    height: 40px; 
+    width: 95%;
+    height: 40px;
     border: none;
+    border-radius: 8px;
+}
+
+.lupa{
+    position: relative;
+    right: 20px;
 }
 
 .comprar-header{
@@ -38,7 +45,7 @@ nav ul{
 }
 
 .burger-menu{
-    margin:0 auto;
+    margin:10px auto;
     background-color: #1259c3;
     height: 40px;
     width: 40px;
@@ -54,7 +61,7 @@ nav ul{
     font-size: 30px;
 }
 
-.home-banner{
+.contenedor-banner{
     margin-top: 10px;
 }
 

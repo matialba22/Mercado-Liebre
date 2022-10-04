@@ -57,6 +57,7 @@ h1{
 }
 
 .boton-submit{
+    border-radius: 8px;
     padding: 5px 30px;
     background-color: white;
     font-weight: bold;
